@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Porttofolio Dede Herman</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sahitya&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div id="pertama">
+
+      <div id="header">
+        <img src="asset/logo.png" id="logo" alt="">
+        <div id="menu">
+          <div class="konten">
+            <a href="#pertama" class="kolom_3">Hallo</a>
+            <a href="#kedua" class="kolom_3 kolom_3_tengah" onclick="return smoothScroll('kedua')">Karya</a>
+            <a href="#ketiga" class="kolom_3" onclick="return smoothScroll('ketiga')">Kontak</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="konten">
+
+        <div id="box_sd">
+          <h1>Selamat datang <br /> di Website Dede Herman</h1>
+          <a href="#kedua">Lihat Karya</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="kedua">
+      <div class="konten">
+        <h2> Karya Saya </h2>
+
+        <div class="kolom_3">
+          <a href="setiap_folio.html">
+            <div class="setiap_karya_gambar">
+              <img src="asset/bg.jpg" alt="">
+              <p>Judul Karya</p>
+            </div>
+          </a>
+          <p class="deskripsi">Ini deskripsi dari setiap <br /> proyek yang ditampilkan</p>
+        </div>
+
+        <div class="kolom_3 kolom_3_tengah">
+          <a href="setiap_folio.html">
+            <div class="setiap_karya_gambar">
+              <img src="asset/bg.jpg" alt="">
+              <p>Judul Karya</p>
+            </div>
+          </a>
+          <p class="deskripsi">Ini deskripsi dari setiap <br /> proyek yang ditampilkan</p>
+        </div>
+
+        <div class="kolom_3">
+          <a href="setiap_folio.html">
+            <div class="setiap_karya_gambar">
+              <img src="asset/bg.jpg" alt="">
+              <p>Judul Karya</p>
+            </div>
+          </a>
+          <p class="deskripsi">Ini deskripsi dari setiap <br />proyek yang ditampilkan</p>
+        </div>
+
+        <div class="clear"></div>
+
+      </div>
+    </div>
+
+    <div id="ketiga">
+      <div class="konten">
+        <h2>Kontak Saya</h2>
+
+        <div class="kolom_2">
+          <form action="" novalidate onsubmit="return validasi(this)">
+
+            <input type="text" name="nama" placeholder="Tulis nama Anda">
+            <input type="email" name="email" placeholder="ex@email.com">
+            <textarea name="pesan" placeholder="Tulis pesan Anda di sini" rows="8" cols="48"></textarea>
+            <input type="submit" name="submit" value="Kirim">
+          </form>
+        </div>
+
+        <div class="kolom_2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15866.922666923152!2d106.8060391!3d-6.166810699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1594150795130!5m2!1sen!2sid" width="600" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+          <div class="clear"></div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>&copy; Dede Herman 2020 | All Right Reserved.</p>
+    </div>
+
+    <script src="folio.js"></script>
+
+  </body>
+</html>
