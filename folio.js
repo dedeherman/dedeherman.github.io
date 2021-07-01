@@ -8,7 +8,7 @@ function smoothScroll(id) {
 
     var scrollAnimate = setTimeout(function() {
             smoothScroll(id);
-        }, 10) // fungsi, waktu
+        }, 3) // fungsi, waktu
 
     posY = posY + jarak;
 
